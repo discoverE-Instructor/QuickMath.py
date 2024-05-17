@@ -17,7 +17,7 @@ while (True):
     numbers = original_numbers[:]   # Create a shallow copy of the numbers
 
     nsize = len(original_numbers)
-    randbrac = random.randrange(0,HOW_MANY_NUMBERS//2)  # Add brackets depending on the amount of numbers
+    randbrac = random.randrange(0,HOW_MANY_NUMBERS//2+1)  # Add brackets depending on the amount of numbers
     for i in range(randbrac):
         index = random.randrange(0,nsize-1)
         numbers[index] = '(' + numbers[index]
