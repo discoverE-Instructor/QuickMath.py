@@ -1,0 +1,11 @@
+{
+	"setupTask": [],
+
+	"tasks": {
+		"python QuickMath.py": {
+			"name": "python QuickMath.py",
+			"command": "python QuickMath.py",
+			"runAtStart": true
+		}
+	}
+}
