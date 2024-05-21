@@ -80,7 +80,7 @@ while (True):
                 if hresponse == '0' or hresponse == 'n' or hresponse == 'No' or hresponse == 'no' or hresponse == 'NO':
                     continue
                 else:
-                    hint = 'hint: ' + ' '.join(map(str, original_numbers))
+                    hint = 'Hint! The order of the numbers should follow: ' + ' '.join(map(str, original_numbers))
                     print(hint)
 
     print("Solution: " + ans1)
