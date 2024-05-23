@@ -13,5 +13,4 @@ Heres a quick breakdown:
 To run this program type: python3 QuickMath.py
 (if python3 is not installed try: python QuickMath.py)
 
-If you wish to run this on an ipad you can use the online python simulator: https://www.programiz.com/python-programming/online-compiler/
-However this simulator will timeout after 5 minutes of idle.
+If you wish to run this on the iPads you can use the CodeSandbox app.
