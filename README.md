@@ -13,4 +13,4 @@ Heres a quick breakdown:
 To run this program type: python3 QuickMath.py
 (if python3 is not installed try: python QuickMath.py)
 
-If you wish to run this on the iPads you can use the CodeSandbox app.
+If you wish to run this on the iPads you can use the CodeSandbox app. It should auto run on start, but if there is an issue with it then just type: python QuickMath.py in the terminal.
