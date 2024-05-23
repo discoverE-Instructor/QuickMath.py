@@ -36,6 +36,7 @@ while (True):
 
     ans1 = ' '.join(numbers)
     ans2 = eval(ans1)
+    ans2 = 226
 
     response=''
     response2=''
@@ -58,19 +59,19 @@ while (True):
             test = ' '.join(test).split("(")
             test = ' '.join(test).split(")")
             test = ' '.join(test).split(" ")
-            test = [i for i in test if i != '' ]
+            test = [i for i in test if not i == '' ]
             error = False
             for i in test:
-                if i not in numbers:
+                if i not in original_numbers:
                     error = True
                     break
-                numbers.remove(i)
+                test.remove(i)
 
-            if error == False:
+            if not error:
                 print("Correct!")
                 break
             else:
-                print("Incorrect input was found. Try again.")
+                print("Wrong Numbers. Try again.")
         else:
             response2 = input("Incorrect. Would you like to keep trying (No, Yes)? ")
             if response2 == '0' or response2 == 'n' or response2 == 'No' or response2 == 'no' or response2 == 'NO':
