@@ -73,11 +73,11 @@ while (True):
                 print("Wrong Numbers. Try again.")
         else:
             response2 = input("Incorrect. Would you like to keep trying (No, Yes)? ")
-            if response2 == '0' or response2 == 'n' or response2 == 'No' or response2 == 'no' or response2 == 'NO':
+            if response2 == '0' or response2 == 'n' or response2 == 'N' or response2 == 'No' or response2 == 'no' or response2 == 'NO':
                 break
             else:
                 hresponse = input("Would you like a hint (No, Yes)? ")
-                if hresponse == '0' or hresponse == 'n' or hresponse == 'No' or hresponse == 'no' or hresponse == 'NO':
+                if hresponse == '0' or hresponse == 'n' or response2 == 'N' or hresponse == 'No' or hresponse == 'no' or hresponse == 'NO':
                     continue
                 else:
                     hint = 'Hint! The order of the numbers should follow: ' + ' '.join(map(str, original_numbers))
