@@ -36,7 +36,6 @@ while (True):
 
     ans1 = ' '.join(numbers)
     ans2 = eval(ans1)
-    ans2 = 226
 
     response=''
     response2=''
